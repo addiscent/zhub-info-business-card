@@ -1,0 +1,152 @@
+/*!
+ * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+.full {
+  background: url(../assets/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.nav, .navbar-nav {
+	font-size: 80%;
+}
+
+.navbar-fixed-top {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-fixed-bottom {
+  background: none;
+}
+
+body {
+	margin-left: 10px;
+	margin-bottom: 50px;
+	background: none;
+	font-family: "Varela Round", "Times New Roman";
+	color: white;
+	font-size: 28px;
+	}
+
+#cardpane {
+  margin-top: 100px;
+  margin-left: 10px;
+	display:none;
+}
+
+#services {
+	display:none;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 200%;
+	background-color: rgba(0,0,0,0.2);
+	display:inline;
+  border-radius: 20px;
+}
+
+/*
+h1:before {
+	content: "\00a0";
+}
+
+h1:after {
+	content: "\00a0";
+}
+*/
+
+h2 {
+	font-size: 120%;
+	background-color: rgba(0,0,0,0.2);
+	display:inline;
+  border-radius: 10px;
+}
+
+/*
+h2:before {
+	content: "\00a0";
+}
+
+h2:after {
+	content: "\00a0";
+}
+*/
+
+.p_byline {
+	font-size: 100%;
+	background-color: rgba(0,0,0,0.2);
+	display:inline;
+  border-radius: 10px;
+}
+
+/*
+.p_byline:before {
+	content: "\00a0";
+}
+
+.p_byline:after {
+	content: "\00a0";
+}
+*/
+
+p, a {
+	font-size: 80%;
+	background-color: rgba(0,0,0,0.2);
+	display:inline;
+  border-radius: 8px;
+}
+
+/*
+p:before, a:before {
+	content: "\00a0";
+}
+
+p:after, a:after {
+	content: "\00a0";
+}
+*/
+
+.p_footer {
+  background: none;
+  font-size: 70%;
+}
+
+.p_footer a {
+  margin: 0px; 
+  background: black; 
+  text-decoration: none; 
+  color: white; 
+  border-radius: 5px; 
+  opacity: 0.4;
+}
+
+/*
+.p_footer a:before {
+	content: "\00a0";
+}
+
+.p_footer a:after {
+	content: "\00a0";
+}
+*/
+
+a {
+  color: #ffff88;
+}
+
+a:hover {
+  color: #ffffdd;
+}
+
+.div_footer {
+  text-align: right;
+}
+
+
