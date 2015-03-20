@@ -47,71 +47,27 @@ body {
 
 h1 {
 	font-size: 200%;
-	background-color: rgba(0,0,0,0.2);
 	display:inline;
   border-radius: 20px;
 }
 
-/*
-h1:before {
-	content: "\00a0";
-}
-
-h1:after {
-	content: "\00a0";
-}
-*/
-
 h2 {
 	font-size: 120%;
-	background-color: rgba(0,0,0,0.2);
 	display:inline;
   border-radius: 10px;
 }
-
-/*
-h2:before {
-	content: "\00a0";
-}
-
-h2:after {
-	content: "\00a0";
-}
-*/
 
 .p_byline {
 	font-size: 100%;
-	background-color: rgba(0,0,0,0.2);
 	display:inline;
   border-radius: 10px;
 }
 
-/*
-.p_byline:before {
-	content: "\00a0";
-}
-
-.p_byline:after {
-	content: "\00a0";
-}
-*/
-
 p, a {
 	font-size: 80%;
-	background-color: rgba(0,0,0,0.2);
 	display:inline;
   border-radius: 8px;
 }
-
-/*
-p:before, a:before {
-	content: "\00a0";
-}
-
-p:after, a:after {
-	content: "\00a0";
-}
-*/
 
 .p_footer {
   background: none;
@@ -126,16 +82,6 @@ p:after, a:after {
   border-radius: 5px; 
   opacity: 0.4;
 }
-
-/*
-.p_footer a:before {
-	content: "\00a0";
-}
-
-.p_footer a:after {
-	content: "\00a0";
-}
-*/
 
 a {
   color: #ffff88;
