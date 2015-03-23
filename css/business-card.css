@@ -26,9 +26,8 @@ body {
 	font-size: 110%;
 }
 
- 
 .navbar-fixed-top {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.7);
 }
 
 .navbar-fixed-bottom {
@@ -47,68 +46,32 @@ body {
 }
 
 h1 {
-	background-color: rgba(0,0,0,0.2);
-	display:inline;
-  border-radius: 20px;
+	background-color: rgba(0,0,0,0.05);
+	padding: 5px 10px;
+	display:inline-block;
+  border-radius: 10px;
 }
-
-/*
-h1:before {
-	content: "\00a0";
-}
-
-h1:after {
-	content: "\00a0";
-}
-*/
 
 h2 {
-	background-color: rgba(0,0,0,0.2);
-	display:inline;
-  border-radius: 10px;
+	background-color: rgba(0,0,0,0.05);
+	padding: 5px 10px;
+	display:inline-block;
+  border-radius: 7px;
 }
-
-/*
-h2:before {
-	content: "\00a0";
-}
-
-h2:after {
-	content: "\00a0";
-}
-*/
 
 .p_byline {
-	background-color: rgba(0,0,0,0.2);
-	display:inline;
-  border-radius: 10px;
+	background-color: rgba(0,0,0,0.05);
+	padding: 5px 8px;
+	display:inline-block;
+  border-radius: 7px;
 }
-
-/*
-.p_byline:before {
-	content: "\00a0";
-}
-
-.p_byline:after {
-	content: "\00a0";
-}
-*/
 
 p, a {
-	background-color: rgba(0,0,0,0.2);
-	display:inline;
-  border-radius: 8px;
+	background-color: rgba(0,0,0,0.05);
+	padding: 5px 8px;
+	display:inline-block;
+  border-radius: 6px;
 }
-
-/*
-p:before, a:before {
-	content: "\00a0";
-}
-
-p:after, a:after {
-	content: "\00a0";
-}
-*/
 
 .p_footer {
   background: none;
@@ -116,22 +79,14 @@ p:after, a:after {
 
 .p_footer a {
   margin: 0px; 
+	padding: 1px 5px;
+	display:inline-block;
   background: black; 
   text-decoration: none; 
   color: white; 
-  border-radius: 5px; 
+  border-radius: 2px; 
   opacity: 0.4;
 }
-
-/*
-.p_footer a:before {
-	content: "\00a0";
-}
-
-.p_footer a:after {
-	content: "\00a0";
-}
-*/
 
 a {
   color: #ffff88;
@@ -146,7 +101,7 @@ a:hover {
 }
 
 
-/* default font-size for mobile */
+/* default font-size for smallest mobile */
 h1 {
 	font-size: 200%;
 }
@@ -168,7 +123,7 @@ p, a {
 }
 
 
-/*  font-size for small mobile */
+/* default font-size for small mobile */
 @media screen and (min-width: 480px) {
   h1 {
 	  font-size: 260%;
@@ -191,8 +146,6 @@ p, a {
   }
 }
 
-
-/* font-size for iphone6/s3/s-note7 up to 10" tablet */
 @media screen and (min-width: 640px) {
   h1 {
 	  font-size: 330%;
@@ -215,8 +168,6 @@ p, a {
   }
 }
 
-
-/* font-size for 10" tablet up to small desktop */
 @media screen and (min-width: 768px) {
   h1 {
 	  font-size: 390%;
@@ -239,8 +190,6 @@ p, a {
   }
 }
 
-
-/* font-size for over 10.1" tab to desktop, portrait mode */
 @media screen and (min-width: 1024px) {
   h1 {
 	  font-size: 500%;
