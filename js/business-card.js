@@ -1,6 +1,6 @@
 /*
 		business-card.js
-		Copyright 2015 DalorWeb.  All rights reserved.
+		Copyright 2015 DalorWeb LLC.  All rights reserved.
 */
 
 var fadeTime = 200;
@@ -37,7 +37,8 @@ function contact () {
 
 function showServicesRollout () {
 	var servicesRollout = document.querySelector('#services');
-	servicesRollout.innerHTML = servicesRolloutInnerHTML; // servicesRolloutInnerHTML defined in .html file
+  // servicesRolloutInnerHTML defined in .html file
+	servicesRollout.innerHTML = servicesRolloutInnerHTML;
 	$("#services").fadeIn(fadeTime);
 }
 
@@ -51,4 +52,12 @@ function hideServicesRollout () {
 	$("#services").fadeOut(fadeTime, servicesHideDone);
 }
 
+function main () {
+  // body background is set to black during HTML page load.  Now the
+  // document is loaded and ready to start.  We need to set
+  // the body background to transparent for normal fade operation.
+  document.querySelector("body").style.background = "none";
+  // fade in the client's cardpane contents
+  $("#cardpane").fadeOut(fadeTime, showClient);
+}
 

@@ -1,11 +1,17 @@
 /*!
  * Start Bootstrap - The Big Picture HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
-* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+html {
+  font-size: 62.5%; // 1rem ~= 10px nominal
+}
+
 .full {
-  background: url(../assets/background.jpg) no-repeat center center fixed; 
+  background: #000 url(../assets/background.jpg) no-repeat center center fixed; 
+/*  background: #999; 
+*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -14,16 +20,15 @@
 }
 
 body {
-	margin-left: 10px;
-	margin-bottom: 50px;
-	background: none;
+	background: black;
+	margin: 1.0rem;
 	font-family: "Varela Round", "Times New Roman";
 	color: white;
-	}
+}
 
 /* "non-brand"-ed nav-bar text */
 .navbar-non-brand {
-	font-size: 110%;
+	font-size: 1.45rem;
 }
 
 .navbar-fixed-top {
@@ -35,57 +40,13 @@ body {
 }
 
 #cardpane {
-  margin-top: 100px;
-  margin-left: 10px;
-	display:none;
+  background: none;
+	display: none;
 }
 
 #services {
-	display:none;
 	text-decoration: none;
-}
-
-h1 {
-	background-color: rgba(0,0,0,0.05);
-	padding: 5px 10px;
-	display:inline-block;
-  border-radius: 10px;
-}
-
-h2 {
-	background-color: rgba(0,0,0,0.05);
-	padding: 5px 10px;
-	display:inline-block;
-  border-radius: 7px;
-}
-
-.p_byline {
-	background-color: rgba(0,0,0,0.05);
-	padding: 5px 8px;
-	display:inline-block;
-  border-radius: 7px;
-}
-
-p, a {
-	background-color: rgba(0,0,0,0.05);
-	padding: 5px 8px;
-	display:inline-block;
-  border-radius: 6px;
-}
-
-.p_footer {
-  background: none;
-}
-
-.p_footer a {
-  margin: 0px; 
-	padding: 1px 5px;
-	display:inline-block;
-  background: black; 
-  text-decoration: none; 
-  color: white; 
-  border-radius: 2px; 
-  opacity: 0.4;
+	display: none;
 }
 
 a {
@@ -100,117 +61,137 @@ a:hover {
   text-align: right;
 }
 
-
-/* default font-size for smallest mobile */
-h1 {
-	font-size: 200%;
+.p_footer {
+  background: none;
+  margin: 0.0rem; 
 }
 
-.p_byline { /* byline of subject title */
-  font-size: 100%; /* ~50% of h1 */
+.p_footer a {
+  background: black; 
+  color: white; 
+  opacity: 0.3;
+}
+
+/*  these margins, padding, font-size, etc are for small mobile -
+    nom 320px by 480px, either portrait or landscape mode
+ */
+#cardpane {
+  margin-top: 8.0rem;
+  margin-left: 0.5rem;
+}
+
+h1 {
+	background-color: rgba(0,0,0,0.05);
+  margin: 0.0rem; 
+	padding: 0.8rem 1.0rem;
+	line-height: 3.4rem;
+  border-radius: 0.6rem;
+	font-size: 3.0rem;
+	display: inline-block;
 }
 
 h2 {
-  font-size: 150%; /* ~75% of h1 */
+	background-color: rgba(0,0,0,0.05);
+  margin: 0.0rem; 
+	padding: 0.7rem 0.9rem;
+	line-height: 3.0rem;
+  border-radius: 0.6rem;
+  font-size: 2.5rem;
+	display: inline-block;
 }
 
 p, a {
-  font-size: 100%; /* ~50% of h1 */
+	background-color: rgba(0,0,0,0.05);
+  margin: 0.0rem;
+	padding: 0.5rem 0.8rem;
+	line-height: 2.16rem;
+  border-radius: 0.6rem;
+  font-size: 1.8rem;
+	display: inline-block;
 }
 
-.p_footer {
-  font-size: 60%; /* seems to look best at this % */
+.p_footer a {
+  margin: 0.0rem; 
+	padding: 0.3rem 0.4rem;
+	line-height: 0.72rem;
+  border-radius: 0.2rem;
+  font-size: 0.6rem;
 }
 
-
-/* default font-size for small mobile */
-@media screen and (min-width: 480px) {
-  h1 {
-	  font-size: 260%;
-  }
-
-  .p_byline { /* byline of subject title */
-	  font-size: 130%; /* ~50% of h1 */
-  }
-
-  h2 {
-	  font-size: 195%; /* ~75% of h1 */
-  }
-
-  p, a {
-	  font-size: 130%; /* ~50% of h1 */
-  }
-
-  .p_footer {
-    font-size: 40%; /* seems to usually look best at this % */
-  }
-}
-
+/*  margins, padding, font-size, etc, for medium mobile class,
+    (iphone6/s3), landscape mode*/
 @media screen and (min-width: 640px) {
-  h1 {
-	  font-size: 330%;
+  #cardpane {
+    margin-top: 6.0rem;
+    margin-left: 1.4rem; 
   }
 
-  .p_byline { /* byline of subject title */
-	  font-size: 165%; /* ~50% of h1 */
+  h1 {
+	  padding: 1.1rem 1.3rem;
+	  line-height: 4.76rem;
+    border-radius: 0.84rem;
+	  font-size: 4.2rem;
   }
 
   h2 {
-	  font-size: 250%; /* ~75% of h1 */
+	  padding: 0.9rem 1.0rem;
+	  line-height: 3.9rem;
+    border-radius: 0.6rem;
+    font-size: 3.25rem;
   }
 
   p, a {
-	  font-size: 160%; /* ~50% of h1 */
+	  padding: 0.7rem 1.12rem;
+	  line-height: 3.0rem;
+    border-radius: 0.84rem;
+    font-size: 2.5rem;
   }
 
-  .p_footer {
-    font-size: 40%; /* seems to usually look best at this % */
+  .p_footer a {
+    margin: 0.0rem; 
+	  padding: 0.45rem 0.6rem;
+	  line-height: 0.11rem;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
   }
 }
 
+/*  margins, padding, font-size, etc, for tablet class
+    landscape mode and larger */
 @media screen and (min-width: 768px) {
-  h1 {
-	  font-size: 390%;
+  #cardpane {
+    margin-top: 10.0rem;
+    margin-left: 2.1rem; 
   }
 
-  .p_byline { /* byline of subject title */
-	  font-size: 195%; /* ~50% of h1 */
+  h1 {
+	  padding: 1.6rem 2.0rem;
+	  line-height: 6.8rem;
+    border-radius: 1.2rem;
+	  font-size: 6.0rem;
   }
 
   h2 {
-	  font-size: 290%; /* ~75% of h1 */
+	  padding: 1.4rem 1.8rem;
+	  line-height: 6.0rem;
+    border-radius: 1.2rem;
+    font-size: 5.0rem;
   }
 
   p, a {
-	  font-size: 195%; /* ~50% of h1 */
+	  padding: 1.0rem 1.6rem;
+	  line-height: 4.32rem;
+    border-radius: 1.2rem;
+    font-size: 3.6rem;
   }
 
-  .p_footer {
-    font-size: 40%; /* seems to usually look best at this % */
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  h1 {
-	  font-size: 500%;
-  }
-
-  .p_byline { /* byline of subject title */
-	  font-size: 250%; /* ~50% of h1 */
-  }
-
-  h2 {
-	  font-size: 375%; /* ~75% of h1 */
-  }
-
-  p, a {
-	  font-size: 250%; /* ~50% of h1 */
-  }
-
-  .p_footer {
-    font-size: 40%; /* seems to usually look best at this % */
+  .p_footer a {
+    margin: 0.0rem; 
+	  padding: 0.6rem 0.8rem;
+	  line-height: 1.44rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
   }
 }
-
 
 
