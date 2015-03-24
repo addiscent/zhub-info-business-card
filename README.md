@@ -1,5 +1,5 @@
 # zhub-info-business-card
-2015 copyright DalorWeb LLC
+copyright 2015 DalorWeb LLC
 
 http://zhub.info
 
@@ -44,7 +44,7 @@ To customize:
       your name, about you, your contact info, etc.
   6.  Optionally, replace the background.jpg file in the assets subdir with one of
       your choice.  There are many nice high resolution photos available on the web,
-      free, "as in beer", and free, "as in speech".  A a starting point, many are
+      free, "as in beer", and free, "as in speech".  As a starting point, many are
       available at https://stocksnap.io/.
   7.  If you don't wish to use the menu item which allows navigation to a web site,
       simply remove that related code in the index.html file.
