@@ -1,6 +1,8 @@
 # zhub-info-business-card
 2015 copyright DalorWeb LLC
+
 http://zhub.info
+
 http://dalorweb.com
 
 A simple web site for basic "web presence".  This web site is the web site
