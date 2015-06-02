@@ -27,7 +27,7 @@ There are no elaborate services required of your web server, only the ability
 to deliver HTML/CSS/JS files and related asset files.  The browser requirements
 are basic as well: HTML5, CSS3, Javascript, JQuery. However, if proxies in your
 network prevent Internet access to CDN servers, e.g., for font files, those
-fonts or other content dependent may not render on the web page as desired.
+fonts or other dependent content may not render on the web page as desired.
 
 Before customizing, establish a good development baseline by generating a
 working installation.
