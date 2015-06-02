@@ -19,11 +19,11 @@ someone.  It's purpose is simply to give the recipient your name, what you do,
 how to contact you, and an optional menu item for click-through to another web
 site.
 
-You may use this web site as a template, and modify it for your own use.  To use
-it: download it, install it onto your web server, modify its content to
-customize as desired, enjoy.  As an example, doing straightforward text content
-changes and a background image change is all that is necessary to convert the
-zhub.info site for personalized use by Ian Hofmann-Hicks,
+You may use this web site project as a template, and modify it for your own
+use.  To use it: download it, install it onto your web server, modify its
+content to customize as desired, enjoy.  As an example, doing straightforward
+text content changes and a background image change is all that is necessary to
+convert the zhub.info site for personalized use by Ian Hofmann-Hicks,
 http://ian-hofmann-hicks.zhub.info.
 
 There are no elaborate services required of your web server, only the ability
@@ -61,6 +61,8 @@ To customize:
       point, many "free" photos are available at https://stocksnap.io/.
   7.  If you do not wish to use the menu item which allows navigation to a web
       site, simply remove that related code in the index.html file.
+
+Licensed under Apache 2.0 License: http://www.apache.org/licenses/LICENSE-2.0
 
 If you have any comments or questions, you may contact
 Rex Addiscentis, raddiscentis@addiscent.com.
