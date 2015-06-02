@@ -9,8 +9,8 @@ html {
 }
 
 .full {
-  background: #000 url(../assets/background.jpg) no-repeat center center fixed; 
-/*  background: #999; 
+  background: #000 url(../assets/background.jpg) no-repeat center center fixed;
+/*  background: #999;  // sometimes used for debugging
 */
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -63,12 +63,12 @@ a:hover {
 
 .p_footer {
   background: none;
-  margin: 0.0rem; 
+  margin: 0.0rem;
 }
 
 .p_footer a {
-  background: black; 
-  color: white; 
+  background: black;
+  color: white;
   opacity: 0.3;
 }
 
@@ -82,7 +82,7 @@ a:hover {
 
 h1 {
 	background-color: rgba(0,0,0,0.05);
-  margin: 0.0rem; 
+  margin: 0.0rem;
 	padding: 0.8rem 1.0rem;
 	line-height: 3.4rem;
   border-radius: 0.6rem;
@@ -92,7 +92,7 @@ h1 {
 
 h2 {
 	background-color: rgba(0,0,0,0.05);
-  margin: 0.0rem; 
+  margin: 0.0rem;
 	padding: 0.7rem 0.9rem;
 	line-height: 3.0rem;
   border-radius: 0.6rem;
@@ -111,7 +111,7 @@ p, a {
 }
 
 .p_footer a {
-  margin: 0.0rem; 
+  margin: 0.0rem;
 	padding: 0.3rem 0.4rem;
 	line-height: 0.72rem;
   border-radius: 0.2rem;
@@ -123,7 +123,7 @@ p, a {
 @media screen and (min-width: 640px) {
   #cardpane {
     margin-top: 6.0rem;
-    margin-left: 1.4rem; 
+    margin-left: 1.4rem;
   }
 
   h1 {
@@ -148,7 +148,7 @@ p, a {
   }
 
   .p_footer a {
-    margin: 0.0rem; 
+    margin: 0.0rem;
 	  padding: 0.45rem 0.6rem;
 	  line-height: 0.11rem;
     border-radius: 0.3rem;
@@ -161,7 +161,7 @@ p, a {
 @media screen and (min-width: 768px) {
   #cardpane {
     margin-top: 10.0rem;
-    margin-left: 2.1rem; 
+    margin-left: 2.1rem;
   }
 
   h1 {
@@ -186,12 +186,10 @@ p, a {
   }
 
   .p_footer a {
-    margin: 0.0rem; 
+    margin: 0.0rem;
 	  padding: 0.6rem 0.8rem;
 	  line-height: 1.44rem;
     border-radius: 0.4rem;
     font-size: 1.2rem;
   }
 }
-
-
