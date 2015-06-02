@@ -20,11 +20,8 @@ how to contact you, and an optional menu item for click-through to another web
 site.
 
 You may use this web site project as a template, and modify it for your own
-use.  To use it: download it, install it onto your web server, modify its
-content to customize as desired, enjoy.  As an example, doing straightforward
-text content changes and a background image change is all that is necessary to
-convert the zhub.info site for personalized use by Ian Hofmann-Hicks,
-http://ian-hofmann-hicks.zhub.info.
+use.  To use it: click the repository DOWNLOAD ZIP button, unzip the downloaded
+file onto your web server, and modify its content to customize as desired.
 
 There are no elaborate services required of your web server, only the ability
 to deliver HTML/CSS/JS files and related asset files.  The browser requirements
